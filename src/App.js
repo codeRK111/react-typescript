@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <input type="number" value={number} />
-      <button onClick={ onClick }>Increase</button>
+      <button onClick={ onClick }>Increase on dev</button>
     </div>
   );
 }
