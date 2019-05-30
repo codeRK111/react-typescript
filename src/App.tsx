@@ -10,7 +10,8 @@ function App() : JSX.Element {
   return (
     <div>
       <input type="number" value={number} />
-      <button onClick={ onClick }>Increase on dev</button>
+      <button onClick={onClick}>Increase on dev</button>
+      <h1>This is done by ts</h1>
     </div>
   );
 }
