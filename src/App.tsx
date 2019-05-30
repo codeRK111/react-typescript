@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
-function App() {
-  const [number, changeNumber] = useState(0);
-  const onClick = e => {
-    let _number = number + 1;
+
+function App() : JSX.Element {
+  const [number, changeNumber] = useState<number>(0);
+  const onClick = ():void => {
+    let _number : number = number + 1;
     changeNumber(_number);
   }
   return (
