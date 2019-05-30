@@ -12,7 +12,7 @@ function App() : JSX.Element {
       <input type="number" value={number} />
       <button onClick={onClick}>Increase on dev</button>
       <h1>This is done by ts</h1>
-      <h1>This is done by ts (master)</h1>
+      <h1>This is done by ts (dev)</h1>
     </div>
   );
 }
